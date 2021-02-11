@@ -1,0 +1,26 @@
+aula 1 - exercicio 1 
+## Guilherme dos Santos Araujo - 160007658
+
+Comandos git:
+	git init
+		Cria um novo repositório local
+	git clone
+		Cria uma cópia de um repositório local
+	git branch
+		Lista todas as branches no repositório e indica onde o usuário está no momento
+	git checkout
+		Desfaz as alterações locais
+	git fetch
+		Descarta todas alterações locais e commits e busca o último histórico do servidor
+	git pull
+	        Busca e mescla as alterações no servidor remoto para seu diretório de trabalho do github
+	git add
+		Adiciona os arquivos a INDEX, local onde os arquivos podem ser enviados ao github
+	git commit 
+		Pega todos os arquivos que estão na INDEX que o comando add adicionou e cria uma revisão com um número e um comentário no github
+	git push
+		Publica os commits realizados no github
+
+Git Pull vs Git Push
+	Git fetch é o comando que diz ao git local para recuperar as últimas informações de dados do original, mas não realiza nenhuma transferência de arquivo.
+	Por outro lado o git pull faz isso e copia essas mudanças para o repositório remoto.
